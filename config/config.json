@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "psql",
-    "database": "movie_listing",
-    "host": "127.0.0.1",
+    "username": "ulxputkevjdtmj",
+    "password": "8147daef0afe6d5d8e50a37f9e149afa48660d528709e3773650584014fa38d8",
+    "database": "d5t223af8c91io",
+    "host": "ec2-44-207-133-100.compute-1.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "ulxputkevjdtmj",
+    "password": "8147daef0afe6d5d8e50a37f9e149afa48660d528709e3773650584014fa38d8",
+    "database": "d5t223af8c91io",
+    "host": "ec2-44-207-133-100.compute-1.amazonaws.com",
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "ulxputkevjdtmj",
+    "password": "8147daef0afe6d5d8e50a37f9e149afa48660d528709e3773650584014fa38d8",
+    "database": "d5t223af8c91io",
+    "host": "ec2-44-207-133-100.compute-1.amazonaws.com",
+    "dialect": "postgres"
   }
 }
