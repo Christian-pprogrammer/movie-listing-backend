@@ -77,3 +77,16 @@ exports.deleteMovie = async (req,res) => {
     res.status(500).json(err);
   }
 }
+
+exports.getMovie = async (req,res) => {
+  try{
+    const movie = await Movie.findOne({where: {id: req.params.movieId}});
+    if(!movie) {
+      return res.status(404).json({message: 'movie not found'});
+    }
+    res.status(200).json(movie);
+  }catch(err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+}
